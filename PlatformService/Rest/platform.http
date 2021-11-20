@@ -1,0 +1,28 @@
+GET http://localhost:5000/api/platforms HTTP/1.1
+
+
+###
+
+POST http://localhost:5000/api/platforms HTTP/1.1
+content-type: application/json
+
+{
+  "name": "Haskell",
+  "publisher": "IBM",
+  "cost": "Free"
+}
+
+###
+GET http://localhost:30679/api/platforms HTTP/1.1
+
+
+###
+
+POST http://localhost:30679/api/platforms HTTP/1.1
+content-type: application/json
+
+{
+  "name": "Haskell",
+  "publisher": "IBM",
+  "cost": "Free"
+}
